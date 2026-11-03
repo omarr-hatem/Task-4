@@ -4,5 +4,5 @@ class Calculator:
 
     def divide(self, a, b):
         if b == 0:
-            raise ValueError("لا يمكن القسمة على صفر")
+            raise ValueError("error")
         return a / b
